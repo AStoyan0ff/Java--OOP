@@ -15,6 +15,8 @@ public class ConstantMessages {
             "Harvesting more crops in %s %s is not possible.";
 
     public static final String FINAL_HARVEST_FIELD_INFO =
-            "Harvesters on %s %s:";
+            // Грешка в условието -> "Harvesters on %s %s:";
+            "Harvester harvesting on %s %s:%n";
 
 }
+
