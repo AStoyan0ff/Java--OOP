@@ -1,0 +1,40 @@
+package climbers.repositories;
+
+import climbers.models.climber.Climber;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class ClimberRepository implements Repository<Climber> {
+
+    private final Collection<Climber> climbers = new ArrayList<>();
+
+
+    @Override
+    public Collection<Climber> getCollection() {
+        return Collections.unmodifiableCollection(climbers);
+    }
+
+    @Override
+    public void add(Climber entity) {
+        this.climbers.add(entity);
+    }
+
+    @Override
+    public boolean remove(Climber entity) {
+        return this.climbers.remove(entity);
+    }
+
+    @Override
+    public Climber byName(String name) {
+
+        return climbers
+                .stream()
+                .filter(c -> c.getName()
+                .equals(name))
+                .findFirst()
+                .orElse(null);
+    }
+}
