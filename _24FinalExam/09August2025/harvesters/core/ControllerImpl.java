@@ -115,7 +115,7 @@ public class ControllerImpl implements Controller {
 
             if (anyHarvest) {
 
-                buff.append(String.format("Harvester harvesting on %s %s:%n",
+                buff.append(String.format(FINAL_HARVEST_FIELD_INFO,
                         field.getName(), field.getClass().getSimpleName()));
 
                 for (Harvester h : field.getHarvesters()) {
@@ -131,3 +131,4 @@ public class ControllerImpl implements Controller {
         return buff.toString().trim();
     }
 }
+
