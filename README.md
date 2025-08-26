@@ -15,9 +15,9 @@
 
 ### <span style="color:#1E90FF; font-weight:bold;">1️⃣ Encapsulation (Капсулация)</span>
 
-✔ **Скриване на вътрешното състояние на обекта и предоставяне на достъп чрез методи.**  
-✔ **Използва `private` полета и `public getter/setter` методи.**  
-✔ **Цел: Контрол върху данните и предпазване от неправилна употреба.**  
+✔ *Скриване на вътрешното състояние на обекта и предоставяне на достъп чрез методи.*  
+✔ *Използва `private` полета и `public getter/setter` методи.* 
+✔ *Цел: Контрол върху данните и предпазване от неправилна употреба.* 
 
 ✅ **Пример:**
 ```java
@@ -36,11 +36,11 @@ public class Person {
 ```
 ---
 
-<span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">2 Inheritance (Наследяване)</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 2️⃣ Inheritance (Наследяване)</span>
 
-✔ Позволява на един клас да наследи полета и методи от друг.
-✔ Използва ключовата дума extends.
-✔ Цел: Повторна употреба на код и създаване на йерархия.
+✔ *Позволява на един клас да наследи полета и методи от друг.*
+✔ *Използва ключовата дума extends.*
+✔ *Цел: Повторна употреба на код и създаване на йерархия.*
 
 ✅ **Пример:**
 ```java
@@ -58,11 +58,11 @@ class Dog extends Animal {
 ```
 ---
 
-<span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">3 Polymorphism (Полиморфизъм)</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 3️⃣ Polymorphism (Полиморфизъм)</span>
 
-✔ Едно действие – различно поведение.
-✔ Използва method overriding и interfaces.
-✔ Цел: Гъвкавост и динамика в поведението на обектите.
+✔ *Едно действие – различно поведение.*
+✔ *Използва method overriding и interfaces.*
+✔ *Цел: Гъвкавост и динамика в поведението на обектите.*
 
 ✅ **Пример:**
 ```java
@@ -82,11 +82,11 @@ class Dog extends Animal {
 ```
 ---
 
-<span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;">4 Abstraction (Абстракция)</span>
+### <span style="background:#0078d7; color:white; padding:4px 8px; border-radius:6px;"> 4️⃣ Abstraction (Абстракция)</span>
 
-✔ Скрива сложността и показва само необходимото.
-✔ Използва abstract класове и интерфейси.
-✔ Цел: Дефиниране на общи характеристики без детайли за имплементация.
+✔ *Скрива сложността и показва само необходимото.*
+✔ *Използва abstract класове и интерфейси.*
+✔ *Цел: Дефиниране на общи характеристики без детайли за имплементация.*
 
 ✅ **Пример:**
 ```java
