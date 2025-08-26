@@ -32,9 +32,8 @@ public class Person {
         this.name = name;
     }
 }
-
 ```
-<span style="color:#1E90FF; font-weight:bold;">2️⃣ Inheritance (Наследяване)</span>
+### <span style="color:#1E90FF; font-weight:bold;">2️⃣ Inheritance (Наследяване)</span>
 
 ✔ **Позволява на един клас да наследи полета и методи от друг.**
 ✔ **Използва ключовата дума extends.**
@@ -53,9 +52,8 @@ class Dog extends Animal {
         System.out.println("Barking...");
     }
 }
-
 ```
-<span style="color:#1E90FF; font-weight:bold;">3️⃣ Polymorphism (Полиморфизъм)</span>
+### <span style="color:#1E90FF; font-weight:bold;">3️⃣ Polymorphism (Полиморфизъм)</span>
 
 ✔ **Едно действие – различно поведение.**
 ✔ **Използва method overriding и interfaces.**
@@ -77,7 +75,7 @@ class Dog extends Animal {
 }
 
 ```
-<span style="color:#1E90FF; font-weight:bold;">4️⃣ Abstraction (Абстракция)</span>
+### <span style="color:#1E90FF; font-weight:bold;">4️⃣ Abstraction (Абстракция)</span>
 
 ✔ **Скрива сложността и показва само необходимото.**
 ✔ **Използва abstract класове и интерфейси.**
