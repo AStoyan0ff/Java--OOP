@@ -34,4 +34,26 @@ public class Person {
         this.name = name;
     }
 }
+---
+
+### 2️⃣ Inheritance (Наследяване)
+
+✔ Позволява на един клас да наследи полета и методи от друг.
+✔ Използва ключовата дума extends.
+✔ Цел: Повторна употреба на код и създаване на йерархия.
+
+✅ *Пример:*
+```java
+class Animal {
+    public void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    public void bark() {
+        System.out.println("Barking...");
+    }
+}
+
 
