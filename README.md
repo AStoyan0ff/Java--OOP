@@ -1,7 +1,7 @@
 <h1 align="center">
   ☕ Java OOP – Object-Oriented Programming  
   <br>
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="80">
+  <img src="[https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGV2eTI4dnVwOGxlZDl0ZWF6MmdlNDM3ejhtbW0wYTdiZGk5czNjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DX1cytoIQvnmgqBlQ3/giphy.gif)" width="80">
 </h1>
 
 📚 **Java OOP (Object-Oriented Programming) е основата на модерното програмиране на Java.  
@@ -32,4 +32,67 @@ public class Person {
         this.name = name;
     }
 }
+
 ```
+<span style="color:#1E90FF; font-weight:bold;">2️⃣ Inheritance (Наследяване)</span>
+
+✔ Позволява на един клас да наследи полета и методи от друг.
+✔ Използва ключовата дума extends.
+✔ Цел: Повторна употреба на код и създаване на йерархия.
+
+✅ **Пример:**
+```java
+class Animal {
+    public void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    public void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+```
+<span style="color:#1E90FF; font-weight:bold;">3️⃣ Polymorphism (Полиморфизъм)</span>
+
+✔ Едно действие – различно поведение.
+✔ Използва method overriding и interfaces.
+✔ Цел: Гъвкавост и динамика в поведението на обектите.
+
+✅ **Пример:**
+```java
+class Animal {
+    public void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Woof!");
+    }
+}
+
+```
+<span style="color:#1E90FF; font-weight:bold;">4️⃣ Abstraction (Абстракция)</span>
+
+✔ Скрива сложността и показва само необходимото.
+✔ Използва abstract класове и интерфейси.
+✔ Цел: Дефиниране на общи характеристики без детайли за имплементация.
+
+✅ **Пример:**
+```java
+abstract class Shape {
+    abstract void draw();
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing Circle");
+    }
+}
+```
+
