@@ -1,7 +1,7 @@
 <h1 align="center">
   ☕ Java OOP – Object-Oriented Programming  
   <br>
-  <img src="[https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif]" width="80"
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="80">
 </h1>
 
 📚 **Java OOP (Object-Oriented Programming) е основата на модерното програмиране на Java.  
