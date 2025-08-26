@@ -32,7 +32,10 @@ public class Person {
         this.name = name;
     }
 }
+
 ```
+---
+
 ### <span style="color:#1E90FF; font-weight:bold;">2️⃣ Inheritance (Наследяване)</span>
 
 ✔ **Позволява на един клас да наследи полета и методи от друг.**
@@ -53,6 +56,8 @@ class Dog extends Animal {
     }
 }
 ```
+---
+
 ### <span style="color:#1E90FF; font-weight:bold;">3️⃣ Polymorphism (Полиморфизъм)</span>
 
 ✔ **Едно действие – различно поведение.**
@@ -75,6 +80,8 @@ class Dog extends Animal {
 }
 
 ```
+---
+
 ### <span style="color:#1E90FF; font-weight:bold;">4️⃣ Abstraction (Абстракция)</span>
 
 ✔ **Скрива сложността и показва само необходимото.**
