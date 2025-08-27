@@ -1,7 +1,7 @@
 <h1 align="center">
   ☕ Java OOP – Object-Oriented Programming  
   <br>
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJmazFxb25vazIzM3d0ZHJ1bGY3cHRuYTBnMzFpMGwxZnFwam50NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mpWFQhaf8m0keXejqB/giphy.gif" width="80">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJmazFxb25vazIzM3d0ZHJ1bGY3cHRuYTBnMzFpMGwxZnFwam50NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mpWFQhaf8m0keXejqB/giphy.gif" width="150">
 </h1>
 
 ---
