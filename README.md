@@ -101,3 +101,6 @@ class Circle extends Shape {
 }
 ```
 ---
+
+✅ 🔗 **Полезни линкове:**  
+  ✔ `https://softuni.bg/`
